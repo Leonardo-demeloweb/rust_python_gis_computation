@@ -1,0 +1,54 @@
+# Global rules
+*.log
+*.tmp# Global rules
+*.log
+*.tmp
+*.bak
+*.bk
+*.pyc
+__pycache__/
+
+# Python project-specificc
+python_project/venv/
+python_project/__pycache__/
+python_project/*.log
+python_project/*.tmp
+
+# Rust project-specific
+rust_point_in_polygon/target/
+rust_point_in_polygon/Cargo.lock
+rust_point_in_polygon/debug/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+*.bak
+*.bk
+*.pyc
+__pycache__/
+
+# Python project-specific
+python_project/venv/
+python_project/__pycache__/
+python_project/*.log
+python_project/*.tmp
+
+# Rust project-specific
+rust_point_in_polygon/target/
+rust_point_in_polygon/Cargo.lock
+rust_point_in_polygon/debug/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+
+# Operating System files
+.DS_Store
+Thumbs.db

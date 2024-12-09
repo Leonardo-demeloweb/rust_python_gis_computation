@@ -1,0 +1,18 @@
+[package]
+name = "rust_point_in_polygon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+geo = "0.24.1"
+geojson = "0.23.0"
+pyo3 = { version = "0.18.0", features = ["extension-module"] }
+
+[lib]
+name = "rust_point_in_polygon"
+crate-type = ["cdylib"]
+
+
+[build-system]
+requires = ["maturin>=0.14"]
+build-backend = "maturin"
